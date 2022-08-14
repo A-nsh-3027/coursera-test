@@ -1,44 +1,67 @@
-h3 {
-  font-style: bold;
-  font-size: larger;
-}
-
-.head {
-  border-radius: 45px;
-  margin: 0px 20px;
-  background: rgb(129, 197, 141);
-  text-align: center;
-  box-shadow: 10px 10px 10px rgb(100, 102, 100)
-}
-
 body {
   margin: 0%;
   padding: 0%;
   width: 100%
 }
 
+.head {
+  text-align: center;
+}
+
+h4 {
+  font-style: bold;
+  position: relative;
+  bottom: 13px;
+}
+
 .flex-container,
 .flex-container-2 {
+  position: relative;
   display: flex;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 2px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .Vegan,
 .Veg,
 .Nonveg {
+  position: relative;
+  text-align: left;
   width: 33.3%;
   box-sizing: border-box;
-  text-align: center;
-  border: 2px black;
+  border: 2px solid black;
   box-shadow: 10px 10px 20px grey;
-  border-radius: 45px;
-  padding: 35px;
-  margin: 10px;
-  background: rgb(189, 182, 182);
+  padding: 40px;
+  margin: 15px;
+  background: gray;
+}
+
+#title-1 {
+  background-color: rgb(188, 143, 143);
+  text-align: center;
+}
+
+#title-2 {
+  background-color: rgb(188, 48, 44);
+}
+
+#title-3 {
+  background-color: rgb(202, 195, 126);
 }
 
 @media(min-width : 992px) {
   .flex-container-2 {
-    width: 70%;
+    width: 66.66%;
   }
 
   .Vegan {
@@ -50,7 +73,7 @@ body {
   }
 
   .Nonveg {
-    width: 30%;
+    width: 33.33%;
   }
 }
 
@@ -73,7 +96,7 @@ body {
   }
 
   .Nonveg {
-    width: 100%;
+    width: 96.6%;
   }
 }
 
@@ -88,17 +111,14 @@ body {
   }
 
   .Vegan {
-    width: 100%;
-
+    width: 96.5%;
   }
 
   .Veg {
-    width: 100%;
-
+    width: 96.5%;
   }
 
   .Nonveg {
-    width: 100%;
-
+    width: 96.5%;
   }
 }
