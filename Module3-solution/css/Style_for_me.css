@@ -24,10 +24,10 @@
   border: solid rgb(0, 0, 0);
   font-family: Georgia, 'Times New Roman', Times, serif;
   width: 100%;
+  flex: 100%;
 }
 
-.navbar {
-  width: 100%;
+
 
 .menu-title {
 
